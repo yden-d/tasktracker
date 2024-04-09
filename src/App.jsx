@@ -11,7 +11,7 @@ function App() {
   );
   const [task, setTask] = useState({});
   const [theme, setActiveTheme] = useState(
-    JSON.parse(localStorage.getItem("theme")) || "medium"
+    JSON.parse(localStorage.getItem("theme")) || "light"
   );
 
   useEffect(() => {
